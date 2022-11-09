@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+html {
+    background-color: #fff;
+    color: #555;
+    font-family: 'Lato', 'Arial' sans-serif;
+    font-weight: 300;
+    font-size: 125%;
+    text-rendering: optimizeLegibility;
+}
+
+
+/* HEADINGS */
+h1,
+h2,
+h3 {
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+h1 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: #fff;
+    font-size: 240%;
+    word-spacing: 4px;
+}
+
+h2 {
+    font-size: 180%;
+    word-spacing: 2px;
+    text-align: center;
+    margin-bottom: 30px;
+    line-height: 1.25;
+}
+
+h3 {
+    font-size: 110%;
+    margin-bottom: 15px;
+}
+
+
+
+/*-----------------------*/
+/* Header */
+/*-----------------------*/
+
+header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(img/header-background.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    background-attachment: fixed;
+}
+
+.brand-name {
+    color: #fff;
+}
+
+.title-container {
+    color: #fff;
+}
+
+.nav-item {
+    font-size: 90%;
+    text-transform: uppercase;
+    margin-left: 20px;
+
+}
+
+.nav-item .nav-link {
+    color: #fff;
+}
+
+
+.navbar-light .navbar-nav .nav-item .nav-link:link,
+.navbar-light .navbar-nav .nav-item .nav-link:visited {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: border-bottom 0.2s;
+}
+
+.navbar-light .navbar-nav .nav-item .nav-link:hover,
+.navbar-light .navbar-nav .nav-item .nav-link:active {
+    border-bottom: 2px solid #e67e22;
+}
+
+
+.header-img {
+    width: 550px;
+}
+
+.heading-container {
+    padding: 120px;
+}
+
+/*-----------------------*/
+/* JavaScript Projects */
+/*-----------------------*/
+
+.project-section {
+    padding: 50px;
+}
+
+.project-heading:after {
+    display: block;
+    height: 2px;
+    background-color: #e67e22;
+    content: " ";
+    width: 150px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.card-image {
+    height: 100%;
+    width: 40%;
+    display: block;
+    margin: auto;
+}
+
+.card-img-container {
+    padding: 30px 0;
+}
+
+.card-bg-1 {
+    background-color: #62b6cb;
+}
+
+.card-bg-2 {
+    background-color: #60d394;
+}
+
+.card-bg-3 {
+    background-color: #ff9b85;
+}
+
+.card-bg-4 {
+    background-color: #ffd97d;
+}
+
+.card-bg-5 {
+    background-color: #90be6d;
+}
