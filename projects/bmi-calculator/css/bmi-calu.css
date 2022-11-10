@@ -1,10 +1,7 @@
 body{
-    color: white;
+    color: rgb(5, 5, 5);
     font-family: Arial, Helvetica, sans-serif;
-    background: linear-gradient(to right, #83a4d4, #b6fbff);
-}
-span{
-    color: red;
+    background: #f0ead2;
 }
 .container{
     position: absolute;
@@ -13,30 +10,37 @@ span{
     transform:translate(-50%, -50%);
     padding: 15px;
     width: 35%;
-    background: rgb(27, 91, 219);
+    background: #f77f00;
+    border: #645f5f 1px solid;
     border-radius: 15px;
-    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    box-shadow: rgb(40, 54, 68) 30px 30px 40px -15px;
 }
 input{
-    border: 1px solid black;
+    border: none;
     border-radius: 4px;
     padding: 5px;
-    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    box-shadow: #504c4c 3px 3px 26px -15px;
 }
 button{
     color: rgb(24, 16, 16);
     padding: 10px;
-    border: 2px solid white;
-    background: rgb(243, 184, 8);
+    border: 1px solid rgb(43, 41, 41);
     display: block;
-    margin-top: 5%;
+    margin: auto;
     font-size: 20px;
-    box-shadow: 4px 0px 20px 6px grey;
+    padding-left: 20px;
+    padding-right: 20px;
     font-weight: bolder;
-    border-radius: 10px;
+    border-radius: 7px;
     cursor: pointer;
+    background-color: rgb(20, 180, 20);
 }
 button:hover{
-    background-color: rgb(20, 180, 20);
-    box-shadow: rgb(31, 45, 61) 0px 20px 30px -10px;
+    box-shadow: rgb(31, 45, 61) 2px 2px 5px 1px;
+    font-size: 25px;
+}
+.output{
+    font-size: 30px;
+    color: #0d0d0d;
+    text-align: center;
 }
