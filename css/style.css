@@ -131,6 +131,15 @@ header {
     margin: auto;
 }
 
+.card-btn {
+    text-decoration: none;
+    color: #fff;
+}
+
+.card-btn:hover {
+    color: #fff;
+}
+
 .card-title {
     text-transform: uppercase;
     font-size: 100%;
@@ -159,3 +168,77 @@ header {
 .card-bg-5 {
     background-color: #90be6d;
 }
+
+/*-----------------------*/
+/* About us */
+/*-----------------------*/
+
+/* #about-us {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(img/about-us-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    background-attachment: fixed;
+    text-align: center;
+} */
+
+/* #about-us {
+    background-color: #ffd166;
+    justify-content: center;
+}
+
+.profile-card-title {
+    text-transform: uppercase;
+    font-size: 150%;
+    text-align: center;
+    color: #fff;
+}
+
+.profile-img {
+    display: block;
+    margin: auto;
+    width: 90%;
+    border-radius: 50%;
+}
+
+.self-info {
+    color: #fff;
+}
+
+
+.about-card {
+    padding: 80px;
+} */
+
+
+.social-media {
+    text-align: center;
+    /* margin-top: 10px; */
+}
+
+.social-media a {
+    color: black;
+    margin: 20px;
+    font-size: 40px;
+    transition: .3s linear;
+}
+
+/* .card-bg-6 {
+    background-color: #d81159;
+} */
+
+
+
+/* .self-info-container {
+    padding: 7% 15%;
+    text-align: center;
+}
+
+.card-info {
+    position: absolute;
+    left: 275px;
+} */
+
+/* .about-us-heading {
+    margin-bottom: 0;
+} */
