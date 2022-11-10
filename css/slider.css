@@ -29,31 +29,6 @@
   padding: 25px 0;
 }
 
-/* .overlay {
-  position: absolute;
-  left: 0;
-  top: 0;
-  height: 100%;
-  width: 100%;
-  background-color: #4070F4;
-  border-radius: 25px 25px 0 25px;
-}
-
-.overlay::before,
-.overlay::after {
-  content: '';
-  position: absolute;
-  right: 0;
-  bottom: -40px;
-  height: 40px;
-  width: 40px;
-  background-color: #4070F4;
-}
-
-.overlay::after {
-  border-radius: 0 25px 0 0;
-  background-color: #FFF;
-} */
 
 .card-image {
   position: relative;
@@ -69,40 +44,41 @@
   width: 100%;
   object-fit: cover;
   border-radius: 50%;
-  /* border: 4px solid #4070F4; */
 }
 
-.photo-border {
+.photo-border-1 {
+  border: 4px solid #62b6cb;
+}
+
+.photo-border-2 {
   border: 4px solid #60d394;
 }
 
+.photo-border-3 {
+  border: 4px solid #ff9b85;
+}
+
+.photo-border-4 {
+  border: 4px solid #ffd97d;
+}
+
+.photo-border-5 {
+  border: 4px solid #90be6d;
+}
+
 .name {
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 500;
-  color: #333;
+  color: black;
 }
 
 .description {
-  font-size: 14px;
-  color: #707070;
+  font-size: 17px;
+  font-weight: 500;
+  color: #333;
   text-align: center;
 }
 
-/* .button {
-  border: none;
-  font-size: 16px;
-  color: #FFF;
-  padding: 8px 16px;
-  background-color: #4070F4;
-  border-radius: 6px;
-  margin: 14px;
-  cursor: pointer;
-  transition: all 0.3s ease;
-}
-
-.button:hover {
-  background: #265DF2;
-} */
 
 .swiper-navBtn {
   color: #6E93f7;
