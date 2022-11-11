@@ -2,9 +2,22 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: white;
+    background-color: #99ffcc;
     color: #125AE2;
   }
+
+  #bg {
+    background-image: linear-gradient( #99ff99 5%, #99ccff 73%);
+    min-height: 100vh;
+  }
+ /* #br-2 {
+    height: max-content;
+    width: max-content;
+    border: 4px solid black;
+    padding: 1.5rem 13vw;
+    margin-top: 2vh;
+    text-align: center;
+  }*/
   
   #board {
     display: grid;
@@ -12,6 +25,8 @@ body {
     grid-template-rows: 100px 100px 100px;
     cursor: pointer;
     position: relative;
+    text-align: center;
+    border: 4px solid black;
   }
   
   .tile {
