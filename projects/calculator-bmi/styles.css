@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+html {
+    background-color: #fff;
+    color: #555;
+    font-family: 'Lato', 'Arial' sans-serif;
+    font-weight: 300;
+    font-size: 125%;
+    text-rendering: optimizeLegibility;
+}
+
+
+h1 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: #fff;
+    font-size: 240%;
+    word-spacing: 4px;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.container-fluid {
+    background-color: #3a86ff;
+    min-height: 100vh;
+}
+
+.container-card {
+    padding: 50px;
+}
+
+.input-screen {
+    height: 60px;
+    width: 300px;
+    font-size: 200%;
+    text-align: center;
+}
+
+span {
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-size: 100%;
+}
