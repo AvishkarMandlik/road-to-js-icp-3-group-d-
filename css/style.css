@@ -125,7 +125,7 @@ header {
 @media screen and (max-width:600px) {
 
     .mt-6 {
-        margin-top: 1rem !important;
+        margin-top: 2rem !important;
     }
 
     .sub-heading {
