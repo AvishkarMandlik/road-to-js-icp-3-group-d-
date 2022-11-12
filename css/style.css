@@ -113,10 +113,10 @@ header {
 }
 
 /* Responsive Site */
-@media screen and (max-width:450px) {
+@media screen and (max-width:600px) {
 
     .mt-6 {
-        margin-top: 0 !important;
+        margin-top: 1rem !important;
     }
 }
 
