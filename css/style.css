@@ -94,20 +94,71 @@ header {
 }
 
 
-.header-img {
-    /* width: 550px; */
+/* .header-img {
     height: 320px;
     margin-top: 60px;
 
-}
+} */
 
-.heading-container {
+/* .heading-container {
     padding: 120px;
-}
+} */
 
 .sub-heading {
+    font-size: 180%;
+    word-spacing: 2px;
+    text-align: center;
+    margin-bottom: 30px;
     line-height: 1.5;
 }
+
+.mt-6 {
+    margin-top: 5rem !important;
+}
+
+/* Responsive Site */
+
+.mobile {
+    display: none;
+}
+
+@media screen and (max-width:600px) {
+
+    .mt-6 {
+        margin-top: 2rem !important;
+    }
+
+    .sub-heading {
+        font-size: 150%;
+        word-spacing: 2px;
+        text-align: center;
+        margin-bottom: 30px;
+        line-height: 1.5;
+    }
+}
+
+
+
+@media screen and (max-width:500px) {
+
+    .mt-6 {
+        margin-top: 2rem !important;
+    }
+
+    .sub-heading {
+        font-size: 155%;
+        word-spacing: 2px;
+        text-align: center;
+        margin-bottom: 30px;
+        line-height: 1.5;
+        display: none;
+    }
+
+    .mobile {
+        display: inline-block;
+    }
+}
+
 
 /*-----------------------*/
 /* JavaScript Projects */
