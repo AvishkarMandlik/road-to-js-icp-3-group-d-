@@ -124,7 +124,24 @@ header {
     }
 
     .sub-heading {
-        font-size: 130%;
+        font-size: 150%;
+        word-spacing: 2px;
+        text-align: center;
+        margin-bottom: 30px;
+        line-height: 1.5;
+    }
+}
+
+
+
+@media screen and (max-width:500px) {
+
+    .mt-6 {
+        margin-top: 2rem !important;
+    }
+
+    .sub-heading {
+        font-size: 140%;
         word-spacing: 2px;
         text-align: center;
         margin-bottom: 30px;
