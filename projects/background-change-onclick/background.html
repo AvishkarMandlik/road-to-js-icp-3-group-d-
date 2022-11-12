@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <linlk rel="stylesheet" href="style.css"/>
+    <style>
+        
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        display: flex;
+        align-items: center;
+         justify-content: center;
+        height: 100vh;
+        background-color: rgb(201, 188, 188);
+    }
+    
+    .container {
+        border: 1px solid black;
+        border-radius: 5px;
+    }
+
+    .color {
+        display: table-cell;
+        width: 100px;
+        height: 100px;
+        margin: 0 1px;
+        cursor: pointer;
+        border: 1px solid black;
+    }
+
+    .clr1 {
+        border-radius: 2px;
+        background-color: green;
+    }
+
+    .clr1:hover{
+        box-shadow: 0px 1px 1px 3px rgb(155, 147, 147);
+        border-left: 1px solid black;
+        border-bottom: 1px solid black;
+        border-radius: 2px;
+    }
+
+    .clr2 {
+        background-color: purple;
+    }
+    .clr2:hover{
+        box-shadow: 0px 1px 1px 1.5px gray;
+        border-radius: 2px;
+    }
+
+    .clr3 {
+        background-color: orange;
+    }
+    .clr3:hover{
+        box-shadow: 0px 1px 1px 1.5px gray;
+           }
+
+
+    .clr4 {
+        background-color: orangered;
+    }
+    .clr4:hover{
+        box-shadow: 0px 1px 1px 1.5px gray;
+        }
+
+
+    .clr5 {
+        background-color: yellow;
+    }
+    .clr5:hover{
+        box-shadow: 0px 1px 1px 1.5px gray;
+             }
+
+    
+    .clr6 {
+        background-color: #b3b300;
+    }
+    .clr6:hover{
+        box-shadow: 0px 1px 1px 1.5px gray;
+         }
+
+    .clr7 {
+        background-color: #3333ff;
+    }
+    .clr7:hover{
+        box-shadow: 0px 1px 1px 1.5px gray;
+      
+    }
+
+    .clr8 {
+        background-color: #ff1aff;
+    }
+    .clr8:hover{
+        box-shadow: 0px 1px 1px 1.5px gray;
+      
+    }
+
+
+    .clr9 {
+        background-color: #669999;
+        
+    }
+    .clr9:hover{
+        box-shadow: 0px 1px 1px 1.5px gray;
+        border-right: 2px solid black;
+        border-bottom: 1px solid black;
+        border-radius: 2px;
+    }
+    .heading{
+        height: 200px;
+        margin-top:2px;
+        font-size: 39px;
+         color:Black;
+  }
+</style>
+
+    <script>
+        function color(z) {
+            var a = getComputedStyle(z);
+            var b = a.backgroundColor;
+            document.getElementsByTagName("BODY")[0].style.backgroundColor = b;
+        }
+    </script>
+
+</head>
+
+<body>
+    <div class="main-container">
+        <h2 class="heading">background-color changed when click on buton</h2>
+          <br>
+        <div class="container">
+            <span id='1' onclick="color(this)" class='color clr1'></span>
+            <span id='1' onclick="color(this)" class='color clr2'></span>
+            <span onclick="color(this)" class='color clr3'></span>
+            <span onclick="color(this)" class='color clr4'></span>
+            <span onclick="color(this)" class='color clr5'></span>
+            <span onclick="color(this)" class='color clr6'></span>
+            <span onclick="color(this)" class='color clr7'></span>
+            <span onclick="color(this)" class='color clr8'></span>
+            <span onclick="color(this)" class='color clr9'></span>
+            
+
+
+        </div>
+    </div>
+</body>
+
+</html>
