@@ -66,3 +66,18 @@ body{
    .buttons button:nth-last-child(1){  
     background-color: #00cc00;  
    }
+   @media (max-width: 480px) {
+    .buttons {
+      flex-direction: column;
+      align-items: center;
+      gap: 20px;
+    }
+    .timerDisplay {
+      width: 90vw;
+      font-size: 20px;
+    }
+    .container{
+      width: fit-content;
+      
+    }  
+    }
