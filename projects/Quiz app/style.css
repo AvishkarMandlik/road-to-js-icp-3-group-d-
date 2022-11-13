@@ -140,7 +140,7 @@ button:hover{
 @media (max-width:500px){
     .quiz-cointainer{
         /* background-color: red; */
-        height: 82vh;
+        height: 77vh;
     width: 350px;
     }
     ul li{
@@ -159,6 +159,10 @@ button:hover{
         }
    
     button{
-       margin-top: -20px;
+       margin-top: -10px;
+       padding: 6px;
+       margin-left: 65px;
+       width: 220px;
+       border-radius: 10px;
     }
 }

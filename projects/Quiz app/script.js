@@ -45,6 +45,8 @@ const submitButton = document.getElementById("submit");
 
 let currentQuiz = 0;
 let score = 0;
+
+
 const deselectAnswers = () => {
     answerElements.forEach((answer) => (answer.checked = false));
 };
@@ -79,4 +81,3 @@ submitButton.addEventListener("click", () => {
         }
     }
 });
-
