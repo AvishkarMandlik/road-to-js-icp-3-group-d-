@@ -1,6 +1,6 @@
 const quizData = [
     {
-        question: "Q1.  Which function of an Array object calls a function for each element in the array?",
+        question: "Q1.Which function of array object call fun. for each element?",
         a: "foreach()",
         b: "every()",
         c: "forEvery() ",
@@ -8,10 +8,10 @@ const quizData = [
         correct: "a",
     },
     {
-        question: "Q2. JavaScript is a___Side Scripting Language. ",
-        a: "Server",
-        b: "Browser",
-        c: "ISP",
+        question: "Q2.How can a datatype be declared to be a constant type?",
+        a: "var",
+        b: "Const",
+        c: "let",
         d: "None of the above",
         correct: "b",
     },

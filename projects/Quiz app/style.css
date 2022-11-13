@@ -73,11 +73,11 @@ button:hover{
     margin-left: 70px;
     margin-top: -30px;
 }
-
+/* 
 
 @media (max-width:500px){
     .quiz-cointainer{
-    /* background-color: red; */
+    background-color: red;
     width: 22rem;
     height: 76vh;
     line-height: 20px;
@@ -103,7 +103,7 @@ button:hover{
 
 @media (max-width:360px) {
     .quiz-cointainer {
-        /* background-color: red; */
+        background-color: red;
         width: 20rem;
         height: 73vh;
         line-height: 25px;
@@ -118,7 +118,7 @@ button:hover{
     }
          
     button {
-        /* display: none; */
+        display: none;
         margin-top: -40px;
     }
 
@@ -132,5 +132,33 @@ button:hover{
     #d_text {
         margin-left: 10px;
 
+    }
+} */
+
+
+
+@media (max-width:500px){
+    .quiz-cointainer{
+        /* background-color: red; */
+        height: 82vh;
+    width: 350px;
+    }
+    ul li{
+        margin-left: 5px;
+        line-height: 15px;
+    }
+    li label{
+        font-size: 20px;
+       
+    }
+    #question{
+        width: 332px;
+            margin-left: -50px;
+            margin-top: -50px;
+            font-size: 22px;
+        }
+   
+    button{
+       margin-top: -20px;
     }
 }
