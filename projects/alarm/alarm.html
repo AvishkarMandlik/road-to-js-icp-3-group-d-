@@ -8,102 +8,104 @@
     <title>document </title>
 
     <style>
-        *{
-            margin:0;
+        * {
+            margin: 0;
             padding: 0;
             box-sizing: border-box;
         }
 
-        body, .main-parent, .container{
+        body,
+        .main-parent,
+        .container {
             display: flex;
             align-items: center;
             justify-content: center;
         }
-        body{
+
+        body {
             background-color: #fcfa8e;
-background-image: linear-gradient(62deg, #fcfa8e 0%, #fccdc3 100%);
+            background-image: linear-gradient(62deg, #fcfa8e 0%, #fccdc3 100%);
             min-height: 100vh;
 
         }
-        .main-parent{
-             border: none;
-            background-color:rgb(241, 232, 232);
-            box-shadow:1px 1px 1px 2px gray;
-            width:440px;
+
+        .main-parent {
+            border: none;
+            background-color: rgb(241, 232, 232);
+            box-shadow: 1px 1px 1px 2px gray;
+            width: 440px;
             border-radius: 20px;
             flex-direction: column;
             border: 1px solid black;
             padding: 30px 30px 30px;
-            
+
         }
 
 
-        .main-parent img{
+        .main-parent img {
             max-width: 120px;
         }
 
-        .main-parent h1{
+        .main-parent h1 {
             font-size: 40px;
             font-weight: bold;
             margin: 30px;
         }
 
-         .container{
-            width:100%;
+        .container {
+            width: 100%;
             justify-content: space-around;
-  
+
 
         }
 
-        .main-parent .container .disable{
-            opacity:0.6;
+        .main-parent .container .disable {
+            opacity: 0.6;
             pointer-events: none;
         }
 
-        .column{
-            padding:0 10px;
+        .column {
+            padding: 0 10px;
             border-radius: 2px;
-            border:1px solid  black;
+            border: 1px solid black;
 
-        } 
-        
-        .column select{
-            outline:none;
+        }
+
+        .column select {
+            outline: none;
             width: 97px;
             font-size: 19px;
-            border:none;
+            border: none;
             height: 53px;
         }
 
-       .main-parent button{
-        width:200px;
-        outline:none;
-        box-shadow: 1px 1px 1px 1px gray;
-        cursor: pointer;
-        transition: 1s;
-        border: none;
-        margin-top:20px;
-        font-size: 20px;
-        padding:17px 0;
-        border-radius: 5px;
-        border:1px solid black;
-        background-color:orange;
-       }
-       
-
+        .main-parent button {
+            width: 200px;
+            outline: none;
+            box-shadow: 1px 1px 1px 1px gray;
+            cursor: pointer;
+            transition: 1s;
+            border: none;
+            margin-top: 20px;
+            font-size: 20px;
+            padding: 17px 0;
+            border-radius: 5px;
+            border: 1px solid black;
+            background-color: orange;
+        }
     </style>
 
 </head>
 
 
 <body>
-    <div class="main-parent"> 
+    <div class="main-parent">
         <img src="clock(1).png">
         <h1>00:00:00 PM</h1>
         <div class="container">
             <div class="column">
                 <select>
-                    <option value="Hour" selected hidden>Hour</option> 
+                    <option value="Hour" selected hidden>Hour</option>
                 </select>
             </div>
             <div class="column">
@@ -114,11 +116,12 @@ background-image: linear-gradient(62deg, #fcfa8e 0%, #fccdc3 100%);
             <div class="column">
                 <select>
                     <option value="AM/PM" selected hidden>AM/PM</option>
-               </select>
+                </select>
             </div>
         </div>
-        <button onclick="setAlarm()">set alarm</button>
+        <button>Set Alarm</button>
     </div>
     <script src="script.js"></script>
 </body>
+
 </html>
