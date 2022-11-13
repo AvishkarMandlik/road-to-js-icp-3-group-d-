@@ -50,11 +50,24 @@ span {
 }
 
 
+.mobile {
+    display: none;
+}
+
+
 /* Responsive site*/
 
 @media screen and (max-width:500px) {
     h1 {
         font-size: 180%;
+    }
+
+    .desktop {
+        display: none;
+    }
+
+    .mobile {
+        display: inline-block;
     }
 
     .input-screen {
@@ -76,5 +89,13 @@ span {
         width: 250px;
         font-size: 120%;
         text-align: center;
+    }
+
+    .desktop {
+        display: none;
+    }
+
+    .mobile {
+        display: inline-block;
     }
 }
