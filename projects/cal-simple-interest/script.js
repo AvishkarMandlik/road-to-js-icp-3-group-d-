@@ -4,7 +4,7 @@ var termOfLoan = 0;
 var interest = 0;
 var amount = 0;
 
-let buttonClick = document.getElementById("button");
+let buttonClick = document.querySelector(".btn-cal");
 
 buttonClick.addEventListener('click', function () {
     principal = parseFloat(document.getElementById("principal").value);
@@ -17,4 +17,5 @@ buttonClick.addEventListener('click', function () {
 
     document.getElementById("resultInterest").innerHTML = "Total interest : $" + interest.toFixed(2);
     document.getElementById("finalAmount").innerHTML = "Total plus interest : $" + principal + " + " + interest + " = " + amount;
+
 })
