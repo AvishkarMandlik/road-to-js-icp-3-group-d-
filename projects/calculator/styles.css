@@ -66,3 +66,7 @@ body {
     border: 2px solid white;
     font-weight: bold;
 }
+
+/* Responsive site*/
+
+@media screen and (max-width:600px) {}

@@ -48,3 +48,33 @@ span {
     text-transform: uppercase;
     font-size: 100%;
 }
+
+
+/* Responsive site*/
+
+@media screen and (max-width:500px) {
+    h1 {
+        font-size: 180%;
+    }
+
+    .input-screen {
+        height: 40px;
+        width: 250px;
+        font-size: 140%;
+        text-align: center;
+    }
+}
+
+
+@media screen and (max-width:450px) {
+    h1 {
+        font-size: 120%;
+    }
+
+    .input-screen {
+        height: 40px;
+        width: 250px;
+        font-size: 120%;
+        text-align: center;
+    }
+}
