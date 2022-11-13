@@ -1,34 +1,35 @@
 const quizData = [
     {
-        question: " Q1. Inside which HTML element do we put the JavaScript ?",
-        a: "script",
-        b: "js",
-        c: "scripting",
-        d: "JavaScript",
+        question: "Q1.  Which function of an Array object calls a function for each element in the array?",
+        a: "foreach()",
+        b: "every()",
+        c: "forEvery() ",
+        d: "each()",
         correct: "a",
     },
     {
-        question: " Q2. Where is the correct place to insert a JavaScript ?",
-        a: "Head section",
-        b: "Both head and body section",
-        c: "body",
-        d: "none of the above",
+        question: "Q2. JavaScript is a___Side Scripting Language. ",
+        a: "Server",
+        b: "Browser",
+        c: "ISP",
+        d: "None of the above",
         correct: "b",
     },
     {
-        question: " Q3. How do you create a function in JavaScript ?",
-        a: "function myfunction()",
-        b: "function:myFunction()",
-        c: "function =myfunction()",
-        d: "myfunction()",
+        
+        question: " Q3.Which was the first browser to support JavaScript___?",
+        a: "Netscape ",
+        b: "Mozilla ",
+        c: "IE ",
+        d: "Google chorme",
         correct: "a",
     },
     {
-        question: "Q4. How do you call a function named ?",
-        a: "call function myfunction()",
-        b: "call myfunction()",
-        c: "myfunction()",
-        d: "none of the above",
+        question: "Q4. Which of the following is not the JavaScriopt operator?",
+        a: "new",
+        b: "delet",
+        c: "this",
+        d: "typeof operator",
         correct: "c",
     },
 ];
@@ -40,6 +41,8 @@ const b_text = document.getElementById("b_text");
 const c_text = document.getElementById("c_text");
 const d_text = document.getElementById("d_text");
 const submitButton = document.getElementById("submit");
+
+
 let currentQuiz = 0;
 let score = 0;
 const deselectAnswers = () => {
@@ -76,3 +79,4 @@ submitButton.addEventListener("click", () => {
         }
     }
 });
+
