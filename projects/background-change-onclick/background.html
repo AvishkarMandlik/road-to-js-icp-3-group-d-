@@ -6,120 +6,187 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Background-Color</title>
-    <linlk rel="stylesheet" href="style.css"/>
     <style>
-        
-    * {
-        margin: 0;
-        padding: 0;
-    }
-
-    body {
-        display: flex;
-        align-items: center;
-         justify-content: center;
-        height: 100vh;
-        background-color: rgb(201, 188, 188);
-    }
-    
-    .container {
-        border: 1px solid black;
-        border-radius: 5px;
-    }
-
-    .color {
-        display: table-cell;
-        width: 100px;
-        height: 135px;
-        margin: 0 1px;
-        cursor: pointer;
-        border: 1px solid black;
-    }
-
-    .clr1 {
-        border-radius: 2px;
-        background-color: rgb(146, 235, 146);
-        box-shadow: 0px 1px 1px 2px rgb(97, 88, 88);
-
-    }
-
-    .clr1:hover{
-        box-shadow: 0px 1px 1px 3px rgb(126, 111, 111);
-        border-left: 1.5px solid black;
-        border-bottom: 1px solid black;
-        border-radius: 2px;
-    }
-
-    .clr2 {
-        background-color: purple;
-    }
-    .clr2:hover{
-        box-shadow: 0px 0px 1px 2.5px rgb(97, 88, 88);
-    }
-
-    .clr3 {
-        background-color: orange;
-    }
-    .clr3:hover{
-        box-shadow: 0px 0px 1px 2.5px rgb(97, 88, 88);
-           }
-
-
-    .clr4 {
-        background-color: orangered;
-    }
-    .clr4:hover{
-        box-shadow: 0px 0px 1px 2.5px rgb(97, 88, 88);
+        * {
+            margin: 0;
+            padding: 0;
         }
 
+        body {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            background-color: rgb(201, 188, 188);
+        }
 
-    .clr5 {
-        background-color: yellow;
-    }
-    .clr5:hover{
-        box-shadow: 0px 0px 1px 2.5px rgb(97, 88, 88);
-             }
+        .container {
+            border: 1px solid black;
 
-    
-    .clr6 {
-        background-color: #b3b300;
-    }
-    .clr6:hover{
-        box-shadow: 0px 0px 1px 2.5px rgb(97, 88, 88);
-         }
+            border-radius: 5px;
+        }
 
-    .clr7 {
-        background-color: #3333ff;
-    }
-    .clr7:hover{
-        box-shadow: 0px 0px 1px 2.5px rgb(97, 88, 88);
-      
-    }
+        .color {
+            display: table-cell;
+            width: 100px;
+            height: 135px;
+            margin: 0 1px;
+            cursor: pointer;
+            border: 1px solid black;
 
-    .clr8 {
-        background-color: #ff1aff;
-    }
-    .clr8:hover{
-        box-shadow: 0px 0px 1px 2.5px rgb(97, 88, 88);      
-    }
-    .clr9 {
-        background-color: #669999;
-        box-shadow: 0px 1px 1px 2px rgb(97, 88, 88);
+        }
 
-    }
-    .clr9:hover{
-        box-shadow: 0px 0px 1px 2.5px rgb(97, 88, 88);
-        border-right: 2px solid black;
-        border-bottom: 1px solid black;
-        border-radius: 2px;
-    }
-    .heading{
-        height: 200px;
-        margin-top:2px;
-        font-size: 40px;
-         color:Black;
-  }
-</style>
+        .clr1 {
+            border-radius: 2px;
+            background-color: rgb(146, 235, 146);
+            box-shadow: 0px 1px 1px 2px rgb(97, 88, 88);
+        }
+
+        .clr1:hover {
+            box-shadow: 0px 1px 1px 3px rgb(126, 111, 111);
+            border-left: 1.5px solid black;
+            border-bottom: 1px solid black;
+            border-radius: 2px;
+        }
+
+        .clr2 {
+            background-color: purple;
+        }
+
+        .clr2:hover {
+            box-shadow: 0px 0px 1px 2.5px rgb(97, 88, 88);
+        }
+
+        .clr3 {
+            background-color: orange;
+        }
+
+        .clr3:hover {
+            box-shadow: 0px 0px 1px 2.5px rgb(97, 88, 88);
+        }
+
+        .clr4 {
+            background-color: orangered;
+        }
+
+        .clr4:hover {
+            box-shadow: 0px 0px 1px 2.5px rgb(97, 88, 88);
+        }
+
+        .clr5 {
+            background-color: yellow;
+        }
+
+        .clr5:hover {
+            box-shadow: 0px 0px 1px 2.5px rgb(97, 88, 88);
+        }
+
+        .clr6 {
+            background-color: #b3b300;
+        }
+
+        .clr6:hover {
+            box-shadow: 0px 0px 1px 2.5px rgb(97, 88, 88);
+        }
+
+        .clr7 {
+            background-color: #3333ff;
+        }
+
+        .clr7:hover {
+            box-shadow: 0px 0px 1px 2.5px rgb(97, 88, 88);
+        }
+
+        .clr8 {
+            background-color: #ff1aff;
+        }
+
+        .clr8:hover {
+            box-shadow: 0px 0px 1px 2.5px rgb(97, 88, 88);
+        }
+
+        .clr9 {
+            background-color: #669999;
+            box-shadow: 0px 1px 1px 2px rgb(97, 88, 88);
+        }
+
+        .clr9:hover {
+            box-shadow: 0px 0px 1px 2.5px rgb(97, 88, 88);
+            border-right: 2px solid black;
+            border-bottom: 1px solid black;
+            border-radius: 2px;
+        }
+
+        .heading {
+            height: 200px;
+            margin-top: 2px;
+            font-size: 40px;
+            color: Black;
+        }
+
+        @media screen and (max-width:600px) {
+            .heading {
+                height: 100px;
+                margin-top: 1px;
+                margin-left: 35px;
+                margin-right: 10px;
+                margin-bottom: 20px;
+                font-size: 25px;
+                color: black;
+            }
+
+            .color {
+                display: table-cell;
+                width: 270px;
+                display: flex;
+                flex-direction: column;
+                height: 42px;
+                margin-left: 20px;
+                margin-bottom: 2px;
+                cursor: pointer;
+            }
+
+            .container {
+                border-radius: 5px;
+                margin-top: 1px;
+                margin-bottom: 12px;
+                margin-right: 15px;
+                margin-left: 4px;
+                border: 1px solid rgb(201, 188, 188);
+            }
+
+            .clr1 {
+                border-radius: 2px;
+                margin-top: 10px;
+                background-color: rgb(95, 177, 95);
+                box-shadow: 0px 1px 1px 2px rgb(133, 115, 115);
+            }
+
+            .clr9 {
+                margin-bottom: 12px;
+                background-color: #669999;
+                box-shadow: 0px 1px 1px 2px rgb(138, 125, 125);
+            }
+
+            .clr1:hover {
+                box-shadow: 0px 1px 1px 3px rgb(136, 129, 129);
+                border-left: 1.5px solid black;
+                border-top: 1px solid black;
+                border-radius: 2px;
+            }
+
+            body {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                height: 100vh;
+                padding-top: 1px;
+                background-color: rgb(201, 188, 188);
+            }
+
+
+        }
+    </style>
 
     <script>
         function color(z) {
@@ -133,8 +200,9 @@
 
 <body>
     <div class="main-container">
-        <h2 class="heading">background-color changed when click on button</h2>
-          <br>
+
+        <h2 class="heading">Background-color changed when click on button</h2>
+
         <div class="container">
             <span id='1' onclick="color(this)" class='color clr1'></span>
             <span id='1' onclick="color(this)" class='color clr2'></span>
@@ -145,9 +213,6 @@
             <span onclick="color(this)" class='color clr7'></span>
             <span onclick="color(this)" class='color clr8'></span>
             <span onclick="color(this)" class='color clr9'></span>
-            
-
-
         </div>
     </div>
 </body>
