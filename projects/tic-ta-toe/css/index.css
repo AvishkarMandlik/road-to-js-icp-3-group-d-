@@ -5,7 +5,9 @@ body {
     background-color: #99ffcc;
     color: #125AE2;
   }
-
+.heading{
+  margin-left: 40px;
+}
   #bg {
     background-image: linear-gradient( #99ff99 5%, #99ccff 73%);
     min-height: 100vh;
