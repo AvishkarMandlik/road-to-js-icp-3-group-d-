@@ -21,8 +21,8 @@
         }
 
         .container {
-            border: 1px solid black;
-
+/*            border: 1px solid black;
+*/
             border-radius: 5px;
         }
 
@@ -37,6 +37,7 @@
         }
 
         .clr1 {
+            border: 1px solid black;
             border-radius: 2px;
             background-color: rgb(146, 235, 146);
             box-shadow: 0px 1px 1px 2px rgb(97, 88, 88);
@@ -50,62 +51,78 @@
         }
 
         .clr2 {
+            border: 1.5px solid black;
             background-color: purple;
         }
 
         .clr2:hover {
+            border: 1.5px solid black;
             box-shadow: 0px 0px 1px 2.5px rgb(97, 88, 88);
-        }
+ }
 
         .clr3 {
-            background-color: orange;
+            background-color: orange;            
+            border: 1px solid black;
+
         }
 
         .clr3:hover {
+            border: 1.5px solid black;
             box-shadow: 0px 0px 1px 2.5px rgb(97, 88, 88);
         }
 
         .clr4 {
+            border: 1px solid black;
             background-color: orangered;
         }
 
         .clr4:hover {
+            border: 1.5px solid black;
             box-shadow: 0px 0px 1px 2.5px rgb(97, 88, 88);
         }
 
         .clr5 {
+            border: 1px solid black;
             background-color: yellow;
         }
 
         .clr5:hover {
+            border: 1.5px solid black;
             box-shadow: 0px 0px 1px 2.5px rgb(97, 88, 88);
         }
 
         .clr6 {
+            border: 1px solid black;
             background-color: #b3b300;
         }
 
         .clr6:hover {
+            border: 1.5px solid black;
             box-shadow: 0px 0px 1px 2.5px rgb(97, 88, 88);
         }
 
         .clr7 {
+            border: 1px solid black;
             background-color: #3333ff;
         }
 
         .clr7:hover {
+            border: 1.5px solid black;
             box-shadow: 0px 0px 1px 2.5px rgb(97, 88, 88);
         }
 
         .clr8 {
+            border: 1px solid black;
             background-color: #ff1aff;
         }
 
         .clr8:hover {
+            border: 1.5px solid black;
             box-shadow: 0px 0px 1px 2.5px rgb(97, 88, 88);
         }
 
         .clr9 {
+            border: 1px solid black;
             background-color: #669999;
             box-shadow: 0px 1px 1px 2px rgb(97, 88, 88);
         }
@@ -125,67 +142,69 @@
         }
 
         @media screen and (max-width:600px) {
-            .heading {
+            .heading{
                 height: 100px;
                 margin-top: 1px;
-                margin-left: 35px;
-                margin-right: 10px;
+                margin-left:35px;
+                margin-right:10px ;
                 margin-bottom: 20px;
                 font-size: 25px;
-                color: black;
+                color:black;
             }
 
-            .color {
-                display: table-cell;
-                width: 270px;
-                display: flex;
-                flex-direction: column;
-                height: 42px;
-                margin-left: 20px;
-                margin-bottom: 2px;
-                cursor: pointer;
-            }
-
-            .container {
-                border-radius: 5px;
-                margin-top: 1px;
-                margin-bottom: 12px;
-                margin-right: 15px;
-                margin-left: 4px;
-                border: 1px solid rgb(201, 188, 188);
-            }
-
-            .clr1 {
-                border-radius: 2px;
-                margin-top: 10px;
-                background-color: rgb(95, 177, 95);
-                box-shadow: 0px 1px 1px 2px rgb(133, 115, 115);
-            }
-
-            .clr9 {
-                margin-bottom: 12px;
-                background-color: #669999;
-                box-shadow: 0px 1px 1px 2px rgb(138, 125, 125);
-            }
-
-            .clr1:hover {
-                box-shadow: 0px 1px 1px 3px rgb(136, 129, 129);
-                border-left: 1.5px solid black;
-                border-top: 1px solid black;
-                border-radius: 2px;
-            }
-
-            body {
-                display: flex;
-                align-items: center;
-                justify-content: center;
-                height: 100vh;
-                padding-top: 1px;
-                background-color: rgb(201, 188, 188);
-            }
-
-
+        .color {
+            display: table-cell;
+            width: 270px;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            height: 42px;
+             margin-left:53px;
+            margin-bottom: 2px;
+            cursor: pointer;
         }
+
+        .container {
+            border-radius: 5px;
+            margin-top:1px;
+            margin-bottom: 12px;
+            margin-right:15px;
+            margin-left: 4px;
+/*            border: 1px solid  rgb(201, 188, 188);*/
+        }
+   
+        .clr1 {
+            border-radius: 2px;
+            margin-top:10px;
+            background-color: rgb(95, 177, 95);
+            box-shadow: 0px 1px 1px 2px rgb(133, 115, 115);
+        }
+
+        .clr9 {
+            margin-bottom: 12px;
+            background-color: #669999;
+            box-shadow: 0px 1px 1px 2px rgb(138, 125, 125);
+        }
+
+        .clr1:hover {
+            box-shadow: 0px 1px 1px 3px rgb(136, 129, 129);
+            border-left: 1.5px solid black;
+            border-top: 1px solid black;
+            border-radius: 2px;
+        }
+
+        body {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            padding-top: 1px;
+            background-color: rgb(201, 188, 188);
+        }
+
+
+        } 
+
     </style>
 
     <script>
@@ -200,9 +219,9 @@
 
 <body>
     <div class="main-container">
-
+        
         <h2 class="heading">Background-color changed when click on button</h2>
-
+        
         <div class="container">
             <span id='1' onclick="color(this)" class='color clr1'></span>
             <span id='1' onclick="color(this)" class='color clr2'></span>
