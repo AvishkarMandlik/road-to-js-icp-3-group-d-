@@ -17,19 +17,19 @@ const quizData = [
     },
     {
         
-        question: " Q3.Which was the first browser to support JavaScript ?",
+        question: " Q3.Which was the first browser to support JavaScript___?",
         a: "Netscape ",
-        b: "Mozilla Firefox ",
+        b: "Mozilla ",
         c: "IE ",
-        d: "Google chrome",
+        d: "Google chorme",
         correct: "a",
     },
     {
-        question: "Q4. Which of the following is not the JavaScriopt operator___?",
-        a: "typeof",
+        question: "Q4. Which of the following is not the JavaScriopt operator?",
+        a: "new",
         b: "delet",
         c: "this",
-        d: "new",
+        d: "typeof operator",
         correct: "c",
     },
 ];
@@ -41,6 +41,7 @@ const b_text = document.getElementById("b_text");
 const c_text = document.getElementById("c_text");
 const d_text = document.getElementById("d_text");
 const submitButton = document.getElementById("submit");
+
 
 let currentQuiz = 0;
 let score = 0;
@@ -78,3 +79,4 @@ submitButton.addEventListener("click", () => {
         }
     }
 });
+

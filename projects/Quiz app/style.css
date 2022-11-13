@@ -31,6 +31,9 @@ body{
 #question{
     font-size: 1.8rem;
 }
+#submit2{
+    display: none;
+}
 h2{
     padding: 1rem;
     text-align: center;
@@ -47,7 +50,7 @@ ul li{
 ui li label{
     cursor: pointer;
 }
-button{
+button {
     background-color: yellow;
     /* background: linear-gradient(#4b6cb7,#182848); */
     color: black;
@@ -63,31 +66,71 @@ button{
 button:hover{
     background-color: #ffd801;
 }
+#submit2{
+    background-color: red;
+    width: 200px;
+    border-radius: 10px;
+    margin-left: 70px;
+    margin-top: -30px;
+}
 
 
-
-@media (max-width:430px){
+@media (max-width:500px){
     .quiz-cointainer{
     /* background-color: red; */
     width: 22rem;
-    height: 67vh;
+    height: 76vh;
     line-height: 20px;
+   
     }
+       
     #question{
             width: 389px;
         margin-top: -43px;
         margin-left: -83px;
-        line-height: 28px;
+        line-height: 40px;
     }
-    button{
-        /* display: none; */
-       /* margin-top: 5px; */
-    }
-   
+     
+        
+     li{
+        line-height: 30px;
+     }
     #a_text,#b_text,#c_text,#d_text{
         margin-left: 10px;
         
     }
 }
 
+@media (max-width:360px) {
+    .quiz-cointainer {
+        /* background-color: red; */
+        width: 20rem;
+        height: 73vh;
+        line-height: 25px;
+    }
+   
+    #question {
+        width: 350px;
+        margin-top: -73px;
+        margin-left: -83px;
+        line-height: 40px;
+        font-size: 20px;
+    }
+         
+    button {
+        /* display: none; */
+        margin-top: -40px;
+    }
 
+    li {
+        line-height: 30px;
+    }
+
+    #a_text,
+    #b_text,
+    #c_text,
+    #d_text {
+        margin-left: 10px;
+
+    }
+}
