@@ -9,23 +9,25 @@
 body {
     height: 100vh;
     /* background: #066acd; */
-   background: linear-gradient(#070763 ,#00d4ff );
+    background: linear-gradient(#070763, #00d4ff);
+    overflow-y: hidden;
+    display: flex;
+    align-items: center;
 }
 
 .container {
-    width: 40%;
-    top: 50%;
-    left: 50%;
+    width: 35rem;
+    /* width: 40%; */
     background: white;
     border-radius: 10px;
-    min-width: 450px;
-    position: absolute;
-    min-height: 100px;
-    transform: translate(-50%, -50%);
+    /* min-width: 450px; */
+    /* position: absolute; */
+    /* min-height: 100px; */
+    /* transform: translate(-50%, -50%); */
 }
 
 #newtask {
-    position: relative;
+    /* position: relative; */
     padding: 30px 20px;
 }
 
@@ -100,4 +102,14 @@ body {
     height: 100%;
     width: 40px;
     border-radius: 5px;
+}
+
+
+@media (max-width:410px){
+
+    .container{
+        background-color: white;
+        width: 330px;
+    }
+       
 }
