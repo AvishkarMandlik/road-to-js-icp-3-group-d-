@@ -10,7 +10,8 @@ body {
     background-image: linear-gradient( #99ff99 5%, #99ccff 73%);
     min-height: 100vh;
   }
- /* #br-2 {
+ /* 
+ #br-2 {
     height: max-content;
     width: max-content;
     border: 4px solid black;
@@ -33,6 +34,7 @@ body {
     color: currentColor;
     font-size: 2em;
     display: flex;
+    
     justify-content: center;
     align-items: center;
   }
@@ -135,9 +137,60 @@ body {
     content: "X";
     opacity: 0.4;
   }
+  @media (max-width: 380px) {
+    #game-over-area {
+      padding: 15px;
+    width: 75%;
+    margin-top: 15px;
+
+    }
+    h2 {
+      font-size: 1em;
+    margin-top: 0px;
+    }
+    button {
+      padding: 4px;
+    font-size: 1em;
+    }
+  }
+  @media (max-width: 480px) {
+    #game-over-area {
+      padding: 20px;
+    width: 75%;
+    margin-top: 20px;
+
+    }
+    h2 {
+      font-size: 2em;
+    margin-top: 0px;
+    }
+    button {
+      padding: 5px;
+    font-size: 1em;
+    }
+  }
+  
+  
+  @media (max-width: 945px) {
+    #game-over-area {
+      padding: 20px;
+    width: 75%;
+    margin-top: 20px;
+
+    }
+    h2 {
+      font-size: 3em;
+    margin-top: 0px;
+    }
+    button {
+      padding: 5px;
+    font-size: 2em;
+    }
+  }
   
   .o-hover:hover::after {
     content: "O";
     opacity: 0.4;
   }
+  
   
