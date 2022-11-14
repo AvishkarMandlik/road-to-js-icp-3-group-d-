@@ -37,17 +37,44 @@
                         <a class="nav-link" href="#">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Projects</a>
+                        <a class="nav-link" href="#projects">Projects</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">About us</a>
+                        <a class="nav-link" href="#about-us">About us</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Login</a>
+                        <a class="nav-link" href="#" id="login-btn">Login</a>
                     </li>
                 </ul>
             </div>
         </nav>
+
+
+        <div class=" modal-login hidden">
+            <div class="center">
+                <div class="container-login">
+                    <button class="close-modal-button">&times;</button>
+                    <div class="text">Login Form</div>
+                    <form action="#">
+                        <div class="data">
+                            <label>Email or Phone</label>
+                            <input type="text">
+                        </div>
+                        <div class="data">
+                            <label>Password</label>
+                            <input type="password">
+                        </div>
+                        <div class="text-center">
+                            <button type="button" class="btn btn-outline-primary px-6 mt-4">&nbsp;Login &nbsp;</button>
+                            <button type="button" class="btn btn-primary px-6 mt-3">Sign up</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="overlay hidden"></div>
+
+
 
         <div class="container-fluid text-center">
             <div class="row">
@@ -58,8 +85,10 @@
                         friendly projects</h2>
                     <h2 class="sub-heading mt-6 mobile">The best collection of
                         JS beginners friendly projects</h2>
-                    <button type="button" class="btn btn-warning px-4 mt-lg-3 mt-md-2">Explore</button>
-                    <button type="button" class="btn btn-outline-warning px-4 ms-4 mt-lg-3 mt-md-2">Call Us</button>
+                    <a href="#projects"><button type="button"
+                            class="btn btn-warning px-4 mt-lg-3 mt-md-2">Explore</button></a>
+                    <a href="#call-us"><button type="button"
+                            class="btn btn-outline-warning px-4 ms-4 mt-lg-3 mt-md-2">Call Us</button></a>
                 </div>
                 <div class="col-md-6">
                     <img class="img-fluid mt-lg-4 mt-md-0" src="./img/js-tutorials-e.png" alt="JS">
@@ -69,7 +98,7 @@
     </header>
 
 
-    <section class="project-section">
+    <section class="project-section" id="projects">
         <div class="container-fluid">
             <h2 class="project-heading mb-5">javascript projects</h2>
 
@@ -81,7 +110,9 @@
                         </div>
                         <div class="card-body text-center card-bg-1 rounded-bottom">
                             <h5 class="card-title">Pig Game</h5>
-                            <a href="#"><button type="button" class="btn btn-dark btn-sm px-3 mt-3">Code</button></a>
+                            <a
+                                href="https://github.com/satyampund/road-to-js-icp-3-group-d-/tree/main/projects/pig-game-main"><button
+                                    type="button" class="btn btn-dark btn-sm px-3 mt-3">Code</button></a>
                             <a href="./projects/pig-game-main/index.html"><button type="button"
                                     class="btn btn-outline-dark btn-sm px-3 mt-3 ms-3">Demo</button></a>
                         </div>
@@ -95,7 +126,9 @@
                         </div>
                         <div class="card-body text-center card-bg-2 rounded-bottom">
                             <h5 class="card-title">Guess my number</h5>
-                            <a href="#"><button type="button" class="btn btn-dark btn-sm px-3 mt-3">Code</button></a>
+                            <a
+                                href="https://github.com/satyampund/road-to-js-icp-3-group-d-/tree/main/projects/guess-my-number-game-main"><button
+                                    type="button" class="btn btn-dark btn-sm px-3 mt-3">Code</button></a>
                             <a href="./projects/guess-my-number-game-main/index.html"><button type="button"
                                     class="btn btn-outline-dark btn-sm px-3 mt-3 ms-3">Demo</button></a>
                         </div>
@@ -109,7 +142,9 @@
                         </div>
                         <div class="card-body text-center card-bg-3 rounded-bottom">
                             <h5 class="card-title">Calculator</h5>
-                            <a href="#"><button type="button" class="btn btn-dark btn-sm px-3 mt-3">Code</button></a>
+                            <a
+                                href="https://github.com/satyampund/road-to-js-icp-3-group-d-/tree/main/projects/calculator"><button
+                                    type="button" class="btn btn-dark btn-sm px-3 mt-3">Code</button></a>
                             <a href="./projects/calculator/index.html"><button type="button"
                                     class="btn btn-outline-dark btn-sm px-3 mt-3 ms-3">Demo</button></a>
                         </div>
@@ -183,7 +218,7 @@
                         <div class="card-body text-center card-bg-1 rounded-bottom">
                             <h5 class="card-title">BMI calculator</h5>
                             <a
-                                href="https://github.com/satyampund/road-to-js-icp-3-group-d-/tree/main/projects/bmi-calculator"><button
+                                href="https://github.com/satyampund/road-to-js-icp-3-group-d-/tree/main/projects/calculator-bmi"><button
                                     type="button" class="btn btn-dark btn-sm px-3 mt-3">Code</button></a>
                             <a href="./projects/calculator-bmi/index.html"><button type="button"
                                     class="btn btn-outline-dark btn-sm px-3 mt-3 ms-3">Demo</button></a>
@@ -228,7 +263,7 @@
                         <div class="card-body text-center card-bg-5 rounded-bottom">
                             <h5 class="card-title">SI Calculator</h5>
                             <a
-                                href="https://github.com/satyampund/road-to-js-icp-3-group-d-/tree/main/projects/simple-intrest-calculator"><button
+                                href="https://github.com/satyampund/road-to-js-icp-3-group-d-/tree/main/projects/cal-simple-interest"><button
                                     type="button" class="btn btn-dark btn-sm px-3 mt-3">Code</button></a>
                             <a href="./projects/cal-simple-interest/index.html"><button type="button"
                                     class="btn btn-outline-dark btn-sm px-3 mt-3 ms-3">Demo</button></a>
@@ -287,7 +322,9 @@
                         </div>
                         <div class="card-body text-center card-bg-3 rounded-bottom">
                             <h5 class="card-title">Drum Kit</h5>
-                            <a href="#"><button type="button" class="btn btn-dark btn-sm px-3 mt-3">Code</button></a>
+                            <a
+                                href="https://github.com/satyampund/road-to-js-icp-3-group-d-/tree/main/projects/drum-kit-main"><button
+                                    type="button" class="btn btn-dark btn-sm px-3 mt-3">Code</button></a>
                             <a href="./projects/drum-kit-main/index.html"><button type="button"
                                     class="btn btn-outline-dark btn-sm px-3 mt-3 ms-3">Demo</button></a>
                         </div>
@@ -300,7 +337,9 @@
                         </div>
                         <div class="card-body text-center card-bg-1 rounded-bottom">
                             <h5 class="card-title">Captcha Validator</h5>
-                            <a href="#"><button type="button" class="btn btn-dark btn-sm px-3 mt-3">Code</button></a>
+                            <a
+                                href="https://github.com/satyampund/road-to-js-icp-3-group-d-/tree/main/projects/captcha-validator"><button
+                                    type="button" class="btn btn-dark btn-sm px-3 mt-3">Code</button></a>
                             <a href="./projects/captcha-validator/index.html"><button type="button"
                                     class="btn btn-outline-dark btn-sm px-3 mt-3 ms-3">Demo</button></a>
                         </div>
@@ -345,9 +384,9 @@
                         </div>
 
                         <div class="card-content card-bg-2 rounded-bottom">
-                            <h2 class="name">Utkarsha</h2>
-                            <p class="description">The lorem text the section that contains header with having open
-                                functionality.</p>
+                            <h2 class="name">Utkarsha Dharankar</h2>
+                            <p class="description">She has completed her MCA from IBMRD, Ahmednagar. She has interest in
+                                art and crafting. She loves trekking.</p>
 
                             <div class="social-media">
                                 <a href="https://github.com/utkarsha-dharankar"><i class="fa-brands fa-github"></i></a>
@@ -360,8 +399,6 @@
                     </div>
                     <div class="card swiper-slide rounded-bottom rounded-top">
                         <div class="image-content">
-                            <span class="overlay"></span>
-
                             <div class="card-image photo-border-3">
                                 <img src="./img/avishkar-photo.png" alt="" class="card-img">
                             </div>
@@ -369,8 +406,8 @@
 
                         <div class="card-content card-bg-3 rounded-bottom">
                             <h2 class="name">Avishkar Mandlik</h2>
-                            <p class="description">The lorem text the section that contains header with having open
-                                functionality.</p>
+                            <p class="description">He has currently pursing BCS in RSMDP. He likes to read books and
+                                have interset in body building.</p>
 
                             <div class="social-media">
                                 <a href="https://github.com/AvishkarMandlik"><i class="fa-brands fa-github"></i></a>
@@ -382,8 +419,6 @@
                     </div>
                     <div class="card swiper-slide rounded-bottom rounded-top">
                         <div class="image-content">
-                            <span class="overlay"></span>
-
                             <div class="card-image photo-border-4">
                                 <img src="./img/smita-photo-1.jpg" alt="" class="card-img">
                             </div>
@@ -391,8 +426,8 @@
 
                         <div class="card-content card-bg-4 rounded-bottom">
                             <h2 class="name">Smita Patare</h2>
-                            <p class="description">The lorem text the section that contains header with having open
-                                functionality.</p>
+                            <p class="description">She has completed BCS. She is passionate about coding and she likes
+                                to invent new things in programming.</p>
 
                             <div class="social-media">
                                 <a href="https://github.com/smitapatare1"><i class="fa-brands fa-github"></i></a>
@@ -404,8 +439,6 @@
                     </div>
                     <div class="card swiper-slide rounded-bottom rounded-top">
                         <div class="image-content">
-                            <span class="overlay"></span>
-
                             <div class="card-image photo-border-5">
                                 <img src="./img/ankit-photo-1.jpg" alt="" class="card-img">
                             </div>
@@ -413,8 +446,8 @@
 
                         <div class="card-content card-bg-5 rounded-bottom">
                             <h2 class="name">Ankit Bankar</h2>
-                            <p class="description">The lorem text the section that contains header with having open
-                                functionality.</p>
+                            <p class="description">He has completed his BCA. He likes to travel and he has interest in
+                                playing football & Kho-Kho.</p>
                             <div class="social-media">
                                 <a href="https://github.com/Ankitb3"><i class="fa-brands fa-github"></i></a>
                                 <a href="#"><i class="fa-brands fa-linkedin"></i></a>
@@ -434,7 +467,7 @@
     </section>
 
 
-    <footer class="footer-container">
+    <footer class="footer-container" id="call-us">
         <div class="container-fluid">
             <div class="row">
                 <div class="col-md-3 text-center">
@@ -452,9 +485,9 @@
                     <span>Quick Links</span>
                     <div class="footer-border"></div>
                     <div class="navigate-content">
-                        <a href="./index.html">Home</a>
-                        <a href="./pages/contact-us.html">Projects</a>
-                        <a href="./pages/membership.html">About us</a>
+                        <a href="#">Home</a>
+                        <a href="#projects">Projects</a>
+                        <a href="#about-us">About us</a>
                     </div>
                 </div>
                 <div class="col-md-3">
