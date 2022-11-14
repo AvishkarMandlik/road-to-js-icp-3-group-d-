@@ -1,7 +1,7 @@
 let captchaText = document.querySelector('#captcha');
 var ctx = captchaText.getContext("2d");
 ctx.font = "35px Rubik Bubbles";
-ctx.fillStyle = "#08e5ff";
+ctx.fillStyle = "#000000";
 
 let userText = document.querySelector('#textBox');
 let submitButton = document.querySelector('#submitButton');
