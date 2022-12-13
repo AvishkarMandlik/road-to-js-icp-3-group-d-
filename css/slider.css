@@ -12,7 +12,7 @@
 
 .card {
   border-radius: 25px;
-  background-color: #FFF;
+  background-color: #fff;
 }
 
 .image-content,
@@ -29,13 +29,12 @@
   padding: 25px 0;
 }
 
-
 .card-image {
   position: relative;
   height: 150px;
   width: 150px;
   border-radius: 50%;
-  background: #FFF;
+  background: #fff;
   padding: 3px;
 }
 
@@ -79,14 +78,13 @@
   text-align: center;
 }
 
-
 .swiper-navBtn {
-  color: #6E93f7;
+  color: #6e93f7;
   transition: color 0.3s ease;
 }
 
 .swiper-navBtn:hover {
-  color: #4070F4;
+  color: #4070f4;
 }
 
 .swiper-navBtn::before,
@@ -103,12 +101,12 @@
 }
 
 .swiper-pagination-bullet {
-  background-color: #6E93f7;
+  background-color: #6e93f7;
   opacity: 1;
 }
 
 .swiper-pagination-bullet-active {
-  background-color: #4070F4;
+  background-color: #4070f4;
 }
 
 @media screen and (max-width: 768px) {
@@ -121,7 +119,6 @@
   }
 }
 
-
 .social-media {
   text-align: center;
 }
@@ -130,5 +127,19 @@
   color: black;
   margin: 20px;
   font-size: 40px;
-  transition: .3s linear;
+  transition: 0.3s linear;
+}
+
+@media screen and (max-width: 390px) {
+  .social-media a {
+    margin: 15px;
+    font-size: 40px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .social-media a {
+    margin: 15px;
+    font-size: 35px;
+  }
 }
