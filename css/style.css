@@ -326,6 +326,12 @@ header {
   font-size: 18px;
 }
 
+@media screen and (max-width: 350px) {
+  .submit-btn {
+    padding: 7px 10px;
+  }
+}
+
 /*-----------------------*/
 /* Login Page */
 /*-----------------------*/
