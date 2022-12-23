@@ -11,4 +11,11 @@ ScrollReveal().reveal('.js-tut-img', {
 ScrollReveal().reveal('.reveal-card', {
   delay: 600,
   origin: 'bottom',
+  mobile: false,
+});
+
+ScrollReveal().reveal('.reveal-card', {
+  delay: 600,
+  origin: 'left',
+  desktop: false,
 });
